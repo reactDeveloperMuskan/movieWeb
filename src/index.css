@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.homeimg {
+  background-image: url("https://media.themoviedb.org/t/p/w1920_and_h427_multi_faces/hR2pFXMxVihldEk5WoSrV7Yq2ra.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.signimg {
+  background-image: url("https://media.themoviedb.org/t/p/w1920_and_h427_multi_faces/hR2pFXMxVihldEk5WoSrV7Yq2ra.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.moviesliderimg {
+  background-image: url("https://www.themoviedb.org/assets/2/v4/misc/trendi…25c187814c0a2efef225494c038098d62317d923f8415.svg") ;
+  background-repeat: repeat;
+  background-size: cover; 
+}
+
+.recommendation-image {
+  width: 100%; /* Full width of the parent container */
+  height: 160px; /* Maintain aspect ratio */
+  object-fit: cover;
+
+   /* Cover the container while preserving aspect ratio */
+}
+
